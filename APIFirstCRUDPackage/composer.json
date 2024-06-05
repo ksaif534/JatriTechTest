@@ -1,0 +1,26 @@
+{
+    "name": "saifkamal/api-first-crud-package",
+    "type": "library",
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Saifkamal\\ApiFirstCrudPackage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Saifkamal\\ApiFirstCrudPackage\\CrudServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Saif Kamal",
+            "email": "kamal.saifkamal534@gmail.com"
+        }
+    ]
+}
