@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f009874c520273f080d6e593f2a13b8",
+    "content-hash": "582fbdaed439f3b6760cdea5fe59f4f6",
     "packages": [
         {
             "name": "brick/math",
@@ -3173,41 +3173,6 @@
                 }
             ],
             "time": "2024-04-27T21:32:50+00:00"
-        },
-        {
-            "name": "saifkamal/api-first-crud-package",
-            "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "./APIFirstCRUDPackage",
-                "reference": "1e4d9b23606e85f54769b6d4a5ea5bdf74bad480"
-            },
-            "require": {
-                "laravel/framework": "^10.10",
-                "php": "^8.1"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Saifkamal\\ApiFirstCrudPackage\\CrudServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Saifkamal\\ApiFirstCrudPackage\\": "src/"
-                }
-            },
-            "authors": [
-                {
-                    "name": "Saif Kamal",
-                    "email": "kamal.saifkamal534@gmail.com"
-                }
-            ],
-            "transport-options": {
-                "relative": true
-            }
         },
         {
             "name": "symfony/console",
@@ -8153,9 +8118,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "saifkamal/api-first-crud-package": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
