@@ -8,8 +8,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container text-center">
-        <h1>Crud Resources</h1>
+    <div class="container text-center mt-2">
+        <div class="row mt-2">
+            <div class="col">
+                <h1>Crud Resources</h1>
+            </div>
+            <div class="col">
+                <button class="btn btn-outline-warning">
+                    <a href="{{ route('crud_resources.create') }}" class="nav-link">Create a Resource</a>
+                </button>
+            </div>
+        </div>
         <table class="table table-striped table-hover table-bordered">
             <thead class="table-dark">
                 <tr>
@@ -29,12 +38,12 @@
                             <div class="row">
                                 <div class="col">
                                     <button type="button" class="btn btn-outline-success">
-                                        <a href="{{ route('crud_resources.show',$item->id) }}">View</a>
+                                        <a href="{{ route('crud_resources.show',$item->id) }}" class="nav-link">View</a>
                                     </button>
                                 </div>
                                 <div class="col">
                                     <button type="button" class="btn btn-outline-warning">
-                                        <a href="{{ route('crud_resources.edit',$item->id) }}">Edit</a>
+                                        <a href="{{ route('crud_resources.edit',$item->id) }}" class="nav-link">Edit</a>
                                     </button>
                                 </div>
                                 <div class="col">
